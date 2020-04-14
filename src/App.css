@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  padding: 50px;
 }
 
 .App-logo {
@@ -7,11 +7,20 @@
   pointer-events: none;
 }
 
+.form-group{
+  text-align: left;
+}
+
+button.btn.btn-secondary{
+  margin-left: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
